@@ -1,0 +1,105 @@
+html,
+body,
+header,
+#intro {
+	height: 100%;
+}
+
+body {
+	position: relative;
+}
+
+#intro {
+	background: url(http://res.cloudinary.com/jphilpot/image/upload/q_auto/splash-1.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+.rgba-custom-blue-dark {
+	background-color: rgba(2,73,89,0.70);
+}
+
+.rgba-custom-blue-light {
+	background-color: rgba(3,181,170,0.30);
+}
+
+.rgba-custom-blue-medium {
+	background-color: rgba(3,126,140,0.70);
+}
+
+.rgba-custom-yellow {
+	background-color: rgba(255,186,8,0.70);
+}
+
+.rgba-custom-dark {
+	background-color: rgba(64,64,64,0.70);
+}
+
+.custom-color-blue-dark {
+	background-color: #024959 !important;
+}
+
+.custom-color-blue-medium {
+	background-color: #037e8c !important;
+}
+
+.custom-color-blue-light {
+	background-color: #03b5aa !important;
+}
+
+.custom-color-yellow {
+	background-color: #ffba08 !important;
+}
+
+.custom-color-dark {
+	background-color: #404040 !important;
+}
+
+.custom-dark-text {
+	color: #404040;
+}
+
+.custom-blue-dark-text {
+	color: #024959;
+}
+
+.custom-blue-medium-text {
+	color: #037e8c;
+}
+
+.custom-blue-light-text {
+	color: #03b5aa;
+}
+
+.custom-yellow-text {
+	color:#ffba08;
+}
+
+.top-nav-collapse {
+	background-color: #024959;
+}
+
+.nav-item .active {
+	background-color: rgba(255,255,255,0.10);
+	font-weight: 500;
+}
+
+.anchor {
+	margin-top: 50px;
+	padding-top: -50px;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #024959;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #024959;
+  }
+}
